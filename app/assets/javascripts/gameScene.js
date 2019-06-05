@@ -4,8 +4,8 @@ class GameScene extends Phaser.Scene {
     }
 
     preload () {
-        this.load.image('bg', '/assets/backgrounds/colored_grass.png');
-        this.load.atlasXML('alien', '/assets/Spritesheets/spritesheet_players.png', '/assets/Spritesheets/spritesheet_players.xml');
+        //this.load.image('bg', '/assets/backgrounds/colored_grass.png');
+        //this.load.atlasXML('alien', '/assets/Spritesheets/spritesheet_players.png', '/assets/Spritesheets/spritesheet_players.xml');
     }
 
     create () {

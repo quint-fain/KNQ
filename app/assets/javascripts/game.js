@@ -1,5 +1,6 @@
 let gameState = {
-
+    score: 0,
+    //all other global variables or objects that are part of the game go here
 };
 
 let config = {
@@ -12,7 +13,7 @@ let config = {
         enableBody: true,
       }
     },
-    scene: [StartScene, GameScene]
+    scene: [StartScene, GameScene, EndScene]
 };
 
 
